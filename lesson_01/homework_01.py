@@ -26,7 +26,7 @@ side_4 = 4
 # task 06 == Порахуйте периметр фігури з task 05
 # та виведіть його для користувача
 perimetery = side_1 + side_2 + side_3 + side_4
-print(perimetery)
+print(f"Периметр фігури дорівнює {perimetery} чогось там :)")
 
 
 """
@@ -44,8 +44,8 @@ apples = 4
 pears = apples + 5
 plums = apples - 2
 all_trees = apples + pears + plums
-print(f"There are {apples} apples, {pears} pears, {plums} plums in the garden. "
-      f"And if we count all the trees the result will be {all_trees} trees in the garden")
+print(f"В саду є {apples} яблуні, {pears} груш та {plums} сливи. "
+      f"А якщо порахувати все разом, то виходить, що в саду {all_trees} дерев. ")
 
 # task 08
 """
@@ -56,7 +56,9 @@ print(f"There are {apples} apples, {pears} pears, {plums} plums in the garden. "
 morning_temperature = 5
 day_temperature = morning_temperature - 10
 evening_temperature = day_temperature + 4
-print(f"It's {evening_temperature} degrees in the evening today")
+print(f"Зранку температура була {morning_temperature} градусів. "
+      f"Але після обіду похолодало і вона вже становила {day_temperature} градусів. "
+      f"А ввечері знову трошки потеплішало і тепер температура становить {evening_temperature} градус.")
 
 # task 09
 """
@@ -71,7 +73,9 @@ absent_girls = 2
 boys_today = boys - sick_boys
 girls_today = girls - absent_girls
 children_in_class = boys_today + girls_today
-print(f"There are {children_in_class} children in the class today: {boys_today} boys and {girls_today} girls")
+print(f"Всього в класі {boys} хлопчика та {girls} дівчаток. "
+      f"Але сьогодні на урок прийшло {boys_today} хлопчика та {girls_today} дівчат. "
+      f"Якщо порахувати разом, то виходить, що в класі всього {children_in_class} дитини.")
 
 # task 10
 """
@@ -79,11 +83,11 @@ print(f"There are {children_in_class} children in the class today: {boys_today} 
 а третя - як половина вартості першої та другої разом.
 Скільки будуть коштувати усі книги, якщо купити по одному примірнику?
 """
-currency = "UAH"
+currency = "грн"
 book_price_1 = 8
 book_price_2 = book_price_1 + 2
 book_price_3 = int((book_price_1 + book_price_2) / 2)
 book_total_price = book_price_1 + book_price_2 + book_price_3
-print(f"Price for the first book is {book_price_1} {currency}, price for the second book is {book_price_2} {currency} "
-      f"and price for the third book is {book_price_3} {currency}. "
-      f"If to buy one of each book the total price will be {book_total_price} {currency}")
+print(f"Ціна першої книги {book_price_1} {currency}, а друга коштує {book_price_2} {currency}, "
+      f"ціна за третю книгу становить {book_price_3} {currency}. "
+      f"Якщо купити кожної книги по примірнику, то потрібно заплатити {book_total_price} {currency}.")
