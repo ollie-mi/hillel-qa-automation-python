@@ -82,7 +82,7 @@ num_dict = {
 for key, value in num_dict.items():
     modulus = value[0] % value[1]
     print(f"{key}) Остача від ділення {value[0]} на {value[1]} буде {modulus}")
-print("\n\n")
+print("\n")
 
 # task 08
 """
@@ -155,4 +155,4 @@ if total_distance % km_on_one_tank:
     pit_stops += 1
 
 print(f"Для того щоб доїхати з Харькова до Будапешту необхідно {total_fuel_litres} літрів бензину. "
-      f"Для цього родині потрібно зупинитися {pit_stops} разів, заправляючи поаний бак.")
+      f"Для цього родині потрібно зупинитися {pit_stops} разів, заправляючи повний бак.")
